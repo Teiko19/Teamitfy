@@ -1,0 +1,10 @@
+@import '../../../styles/breakpoints.scss';
+
+.container {
+  @media (min-width: $mobile) {
+    padding: 0 40px;
+  }
+  @media (min-width: $tablet) {
+    padding: 40px 0;
+  }
+}

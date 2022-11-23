@@ -1,0 +1,19 @@
+// Required
+@import './colors.scss';
+
+// Override default variables before the import
+
+// Colors
+$body-bg: $tif-background;
+$primary: $tif-aqua;
+$secondary: $tif-orange;
+
+// fonts
+$font-family-base: 'Rubik';
+
+$h1-font-size: 56px;
+$gradient: linear-gradient(180deg, rgba($tif-blue-bottom-gradient, .45), rgba($tif-blue, 0)) !default;
+
+// This must be places at the end of the file
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';

@@ -1,0 +1,11 @@
+@import '../../../styles/breakpoints.scss';
+
+.container {
+    @media (max-width: $tablet) {
+        margin-bottom: 80px;
+    }
+    @media (min-width: $tablet) {
+        margin-bottom: 120px;
+    }
+}
+
