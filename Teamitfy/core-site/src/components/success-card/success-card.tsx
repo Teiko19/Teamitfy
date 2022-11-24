@@ -10,6 +10,7 @@ interface SuccesCardItems {
   name: string
 };
 
+
 export const SuccessCard = () => {
   const items: SuccesCardItems[] = [
     { typeClass: `${styles.border_card}`, typeClassImg: `${styles.happy}`, nameLink: "/images/launching.png", name: "Projects Launched"},
