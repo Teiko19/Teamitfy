@@ -1,10 +1,10 @@
 import { Navbar, Container, Offcanvas, Nav } from "react-bootstrap";
 
-import { NavBarItems } from "./nav-bar-items/nav-bar-items";
+import { NavBarItems , Info } from "./nav-bar-items/nav-bar-items";
 import styles from './nav-bar.module.scss'
 
 export const NavBar = () => {
-  const items =  [
+  const items: Info[] =  [
     { act: "#action1" , type: "Sevices" , id: "1" } ,
     { act: "#action2" , type: "Portafolio" , id: "2" } ,
     { act: "#action3" , type: "Contact" , id: "3" }
